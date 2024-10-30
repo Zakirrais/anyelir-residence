@@ -58,8 +58,6 @@ const blokGambar = {
 
 const images = [
   "img/view_anyelirresidence2.jpg",
-  // "img/view_anyelirresidence3.jpg",
-  // "img/view_anyelirresidence4.jpg",
   "img/view_anyelirresidence5.jpg",
   "img/fasilitas1.jpg",
   "img/fasilitas2.jpg",
