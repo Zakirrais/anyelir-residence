@@ -1,0 +1,281 @@
+.costum-svg {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.costum-svg p {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.contenthead img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%; /* Sesuaikan lebar gambar */
+  height: 100%; /* Sesuaikan tinggi gambar */
+  object-fit: cover; /* Mengatur gambar agar memenuhi area */
+  z-index: -1; /* Membuat gambar di belakang konten */
+}
+
+.top-list {
+  position: relative;
+  display: inline-block;
+  padding: 1.5rem 0;
+}
+
+.top-list::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #f5e096;
+  position: absolute;
+  bottom: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content-wrapper {
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-content {
+  width: 100%;
+  max-width: 100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.close {
+  position: absolute;
+  top: -10px; /* Jarak dari atas */
+  right: 20px; /* Jarak dari kanan */
+  color: #ffffff; /* Warna putih */
+  font-size: 24px; /* Ukuran font */
+  font-weight: bold; /* Tebal font */
+  cursor: pointer; /* Kursor menjadi pointer saat hover */
+  z-index: 1001;
+}
+
+.close:hover {
+  color: (var(--primary)); /* Warna saat hover */
+}
+
+content-image {
+  width: 100%; /* Mengatur lebar gambar */
+  height: auto;
+  position: relative;
+  z-index: 1; /* Z-index lebih rendah sehingga elemen lain berada di atasnya */
+}
+
+.contenthead {
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.info2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 85%; /* Mengatur posisi di atas gambar */
+  padding: 2px;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Agar berada tepat di tengah gambar */
+  z-index: 2; /* Elemen ini berada di atas gambar */
+  font-family: "Poller One", cursive;
+}
+
+.info-more {
+  background-color: rgba(81, 79, 79, 0.8);
+  border-radius: 50px;
+  padding: 0.5rem 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn-get-wa,
+.btn-get-brosur {
+  background-color: #f5e096;
+  color: var(--black);
+  border-radius: 100px;
+  text-decoration: none;
+  padding: 20px 100px;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.text-list {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 0;
+}
+
+.text-list::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 95%;
+  }
+
+  .contenthead img {
+    height: 100%;
+  }
+  .navbar-brand img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-event {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  .contenthead img {
+    height: 100%;
+  }
+  .navbar-brand img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-event {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-list {
+    display: block;
+    text-align: center;
+  }
+
+  .text-content {
+    text-align: center;
+    display: block;
+  }
+
+  .top-list::after {
+    width: 80%; /* Atur ulang lebar garis bawah untuk ponsel */
+    left: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-more {
+    gap: 1vw;
+    background-size: auto;
+  }
+
+  .btn-get-wa,
+  .btn-get-brosur {
+    padding: 2vw 11vw;
+    font-size: 1.4vw;
+  }
+
+  /* .footer-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-about .logo {
+    justify-content: center;
+  } */
+}
+
+@media (max-width: 450) {
+  html {
+    font-size: 65%;
+  }
+  .contenthead img {
+    height: 100%;
+  }
+
+  .navbar-brand img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-event {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* .footer-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-about .logo {
+    justify-content: center;
+  } */
+}
