@@ -14,7 +14,7 @@ function showSlide(index) {
     currentSlide = index;
   }
 
-  slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+  slides.style.transform = `translateX(-${currentSlide * 50}%)`;
 }
 
 function changeSlide(direction) {
