@@ -121,7 +121,7 @@ function sendToWhatsApp() {
   var message = document.getElementById("message").value;
 
   var url =
-    "https://wa.me/62081517291064?text=" +
+    "https://wa.me/62081995145284?text=" +
     "Name: " +
     encodeURIComponent(name) +
     "%0a" +
