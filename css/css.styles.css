@@ -126,7 +126,7 @@ content-image {
   left: 50%;
   transform: translate(-50%, -50%); /* Agar berada tepat di tengah gambar */
   z-index: 2; /* Elemen ini berada di atas gambar */
-  font-family: "Poller One", cursive;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .info-more {
