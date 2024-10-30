@@ -120,13 +120,8 @@ function sendToWhatsApp() {
   var phone = document.getElementById("phone").value;
   var message = document.getElementById("message").value;
 
-  var url =
-<<<<<<< HEAD
-    "https://wa.me/620819951452?text=" +
-=======
-    "https://wa.me/62081517291064?text=" +
->>>>>>> ee5a7291f5aa1bbade8d851b5e0d83d08431be98
-    "Name: " +
+  var url = "https://wa.me/620819951452?text=";
+  "Name: " +
     encodeURIComponent(name) +
     "%0a" +
     "Email: " +
