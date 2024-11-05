@@ -192,7 +192,7 @@ content-image {
 
 @media (max-width: 768px) {
   html {
-    font-size: 80%;
+    font-size: 75%;
   }
   .contenthead img {
     height: 100%;
@@ -250,7 +250,7 @@ content-image {
 
 @media (max-width: 450) {
   html {
-    font-size: 65%;
+    font-size: 55%;
   }
   .contenthead img {
     height: 100%;
