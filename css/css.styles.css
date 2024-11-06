@@ -33,7 +33,7 @@
   display: block;
   width: 100%;
   height: 3px;
-  background-color: #f5e096;
+  background-color: #f6e095;
   position: absolute;
   bottom: 0;
 }
@@ -140,7 +140,7 @@ content-image {
 
 .btn-get-wa,
 .btn-get-brosur {
-  background-color: #f5e096;
+  background-color: #f6e095;
   color: var(--black);
   border-radius: 100px;
   text-decoration: none;
