@@ -78,8 +78,7 @@
     <header class="contenthead">
       <img src="img/content_head.png" alt="" />
       <div class="info2">
-        <img
-          class="img-more"
+        <img class="img-more"
           src="img/contactup.png"
           alt=""
           style="
@@ -92,23 +91,17 @@
         />
         <div class="info-more">
           <a
-            href="https://wa.me/6281995145284?text=Halo,%20saya%20ingin%20menanyakan%20info%20tentang%20ANYELIR%20RESIDENCE"
-            class="btn-get-wa"
-            target="_blank"
-          >
+            href="https://wa.me/6281995145284?text=Halo,%20saya%20ingin%20menanyakan%20info%20tentang%20ANYELIR%20RESIDENCE"class="btn-get-wa"target="_blank">
             <span class="btn-label">Whatsapp</span>
           </a>
           <a
-            href="img/BOOKLET ANYELIR RESIDENCE_SEMENTARA_R1.pdf"
-            class="btn-get-brosur"
-            target="_blank"
-          >
+            href="img/BOOKLET ANYELIR RESIDENCE_SEMENTARA_R1.pdf"class="btn-get-brosur"target="_blank">
             <span class="btn-label">Brosur</span>
           </a>
         </div>
       </div>
     </header>
-    <section id="home-event">
+    <div id="home-event">
       <div
         class="container"
         style="padding: 0rem 2rem;"
@@ -117,7 +110,7 @@
           <svg width="4" height="55" xmlns="http://www.w3.org/2000/svg">
             <rect width="4" height="45" style="fill: #f5e096" />
           </svg>
-          <h3 style="color: #F6E095; font-weight: 800; font-size: 2.8rem; font-style: italic; margin-top: 10px; font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;">
+          <h3 style="color: #F6E095; font-weight: 800; font-size: 2.5rem; font-style: italic; margin-top: 10px; font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;">
             <span style="color: #6d6d6d;">ANYELIR</span> RESIDENCE
           </h3>
         </div>
@@ -168,122 +161,96 @@
           </div>
         </div>
       </div>
-    </section>
-    <section id="home-event2" style="margin-top: -8%">
+    </div>
+    <div id="home-event2" style=" padding: 1.5rem; background-image: url(img/image2.webp); background-size: cover;">
       <div style="padding: 2rem 2rem; font-family: 'Times New Roman', Times, serif">
         <div style="justify-content: center; text-align: center">
-          <p
-            class="top-list"
-            style="color: #6d6d6d; font-size: 2rem; font-weight: 600"
-          >
-            Tipe Rumah
-          </p>
+          <p class="top-list" style="color: #f5e096; font-size: 2rem; font-weight: 600">Tipe Rumah</p>
         </div>
-        <div class="row mt-4">
+        <!-- Carousel hanya untuk perangkat mobile -->
+        <div id="houseCarousel" class="carousel slide d-md-none" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card" id="blok-a">
+                <img src="img/Blok_A/Blok-a-event1.png" class="card-img-top" alt="Blok A" />
+                <div class="card-body" style="background-color: #ffffff">
+                  <a href="#home-event2" class="btn" style="background-color: #616060; color: #ffffff" onclick="showBlok(1)">Lihat Lebih Lengkap!</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" id="blok-b">
+                <img src="img/Blok_B/Blok-b-Event1.png" class="card-img-top" alt="Blok B" />
+                <div class="card-body" style="background-color: #ffffff">
+                  <a href="#home-event2" class="btn" style="background-color: #616060; color: #ffffff" onclick="showBlok(2)">Lihat lebih lengkap</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" id="blok-c">
+                <img src="img/Blok_C/Blok-c-Event1.png" class="card-img-top" alt="Blok C" />
+                <div class="card-body" style="background-color: #ffffff">
+                  <a href="#home-event2" class="btn" style="background-color: #616060; color: #ffffff" onclick="showBlok(3)">Lihat lebih lengkap</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" id="blok-d">
+                <img src="img/Blok_D/Blok-d-Event1.png" class="card-img-top" alt="Blok D" />
+                <div class="card-body" style="background-color: #ffffff">
+                  <a href="#home-event2" class="btn" style="background-color: #616060; color: #ffffff" onclick="showBlok(4)">Lihat lebih lengkap</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#houseCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#houseCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    
+        <!-- Tampilan default untuk desktop -->
+        <div class="row mt-4 d-none d-md-flex">
           <div class="col-md-3 mt-2 mb-2" id="blok-a">
             <div class="card">
-              <img
-                src="img/Blok_A/Blok-a-event1.png"
-                class="card-img-top"
-                alt=""
-              />
+              <img src="img/Blok_A/Blok-a-event1.png" class="card-img-top" alt="Blok A" />
               <div class="card-body" style="background-color: #f5e096">
-                <!-- <h5 class="card-title">BLOK A</h5> -->
-                <a
-                  href="#blok-a"
-                  class="btn"
-                  style="background-color: #616060; color: #ffffff"
-                  onclick="showBlok(1)"
-                  >Lihat Lebih Lengkap!</a
-                >
+                <a href="#blok-a" class="btn" style="background-color: #616060; color: #ffffff" onclick="showBlok(1)">Lihat Lebih Lengkap!</a>
               </div>
             </div>
           </div>
           <div class="col-md-3 mt-2 mb-2" id="blok-b">
             <div class="card">
-              <img
-                src="img/Blok_B/Blok-b-Event1.png"
-                class="card-img-top"
-                alt=""
-              />
+              <img src="img/Blok_B/Blok-b-Event1.png" class="card-img-top" alt="Blok B" />
               <div class="card-body" style="background-color: #f5e096">
-                <!-- <h5 class="card-title">BLOK B</h5> -->
-                <a
-                  href="#blok-b"
-                  class="btn"
-                  style="background-color: #616060; color: #ffffff"
-                  onclick="showBlok(2)"
-                  >Lihat lebih lengkap</a
-                >
+                <a href="#blok-b" class="btn" style="background-color: #616060; color: #ffffff" onclick="showBlok(2)">Lihat lebih lengkap</a>
               </div>
             </div>
           </div>
           <div class="col-md-3 mt-2 mb-2" id="blok-c">
             <div class="card">
-              <img
-                src="img/Blok_C/Blok-c-Event1.png"
-                class="card-img-top"
-                alt=""
-              />
+              <img src="img/Blok_C/Blok-c-Event1.png" class="card-img-top" alt="Blok C" />
               <div class="card-body" style="background-color: #f5e096">
-                <!-- <h5 class="card-title">BLOK C</h5> -->
-                <a
-                  href="#blok-c"
-                  class="btn"
-                  style="background-color: #616060; color: #ffffff"
-                  onclick="showBlok(3)"
-                  >Lihat lebih lengkap</a
-                >
+                <a href="#blok-c" class="btn" style="background-color: #616060; color: #ffffff" onclick="showBlok(3)">Lihat lebih lengkap</a>
               </div>
             </div>
           </div>
           <div class="col-md-3 mt-2 mb-2" id="blok-d">
             <div class="card">
-              <img
-                src="img/Blok_D/Blok-d-Event1.png"
-                class="card-img-top"
-                alt=""
-              />
+              <img src="img/Blok_D/Blok-d-Event1.png" class="card-img-top" alt="Blok D" />
               <div class="card-body" style="background-color: #f5e096">
-                <!-- <h5 class="card-title">BLOK D</h5> -->
-                <a
-                  href="#blok-d"
-                  class="btn"
-                  style="background-color: #616060; color: #ffffff"
-                  onclick="showBlok(4)"
-                  >Lihat lebih lengkap</a
-                >
+                <a href="#blok-d" class="btn" style="background-color: #616060; color: #ffffff" onclick="showBlok(4)">Lihat lebih lengkap</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div
-        id="imageModal"
-        class="modal"
-        onclick="closeModalOnOutsideClick(event)"
-      >
-        <div class="modal-content-wrapper">
-          <span class="close" onclick="closeModal()">&times;</span>
-          <img class="modal-content" id="modalImage" />
-          <div class="caption">
-            <span id="captionText"></span>
-          </div>
-          <button
-            class="prev"
-            onclick="changeImage(-1); event.stopPropagation();"
-          >
-            &#10094;
-          </button>
-          <button
-            class="next"
-            onclick="changeImage(1); event.stopPropagation();"
-          >
-            &#10095;
-          </button>
-        </div>
-      </div>
-    </section>
+    </div>
     <section id="home-event3">
       <div
         style="
@@ -635,6 +602,8 @@
         <p><span>Copyright</span> © <strong class="px-1 sitename">2024. </strong> <span>PT. Catur Wira Sembada</span></p>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/js/scripts.js"></script>
     <script src="js/script.js"></script>
