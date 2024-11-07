@@ -235,6 +235,23 @@ content-image {
     font-size: 2vw;
   }
 
+  #mainNav .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    width: 50%;
+    left: 0;
+
+    background-color: #f6e095;
+  }
+
+  /* #mainNav .navbar-collapse.active {
+    right: 0;
+  } */
+  /* 
+  #mainNav {
+    background-color: #f6e095;
+  } */
+
   /* .footer-about {
     display: flex;
     flex-direction: column;
