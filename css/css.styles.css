@@ -173,9 +173,8 @@ content-image {
 .respon-background {
   background-image: url("../img/bgrtype.png");
   background-size: contain;
-  background-size: cover;
   background-position: center;
-  padding: 4rem 4rem;
+  padding: 12rem 4rem;
 }
 
 @media (max-width: 1366px) {
@@ -254,6 +253,7 @@ content-image {
 
   .respon-background {
     background-size: contain;
+    padding: 4rem;
   }
 }
 
