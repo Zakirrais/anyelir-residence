@@ -170,6 +170,14 @@ content-image {
   bottom: 0;
 }
 
+.respon-background {
+  background-image: url("../img/bgrtype.png");
+  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 4rem;
+}
+
 @media (max-width: 1366px) {
   html {
     font-size: 95%;
@@ -244,25 +252,9 @@ content-image {
     background-color: #f6e095;
   }
 
-  /* #mainNav .navbar-collapse.active {
-    right: 0;
-  } */
-  /* 
-  #mainNav {
-    background-color: #f6e095;
-  } */
-
-  /* .footer-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  .respon-background {
+    background-size: contain;
   }
-
-  .footer-about .logo {
-    justify-content: center;
-  } */
 }
 
 @media (max-width: 450) {
@@ -283,16 +275,4 @@ content-image {
     text-align: center;
     align-items: center;
   }
-
-  /* .footer-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-about .logo {
-    justify-content: center;
-  } */
 }

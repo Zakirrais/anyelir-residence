@@ -50,6 +50,14 @@
   font-size: 1.5vw; /* Ukuran tombol fleksibel */
 }
 
+.respon-background {
+  background-image: url("img/bgr-type.png");
+  background-position: center;
+  background-size: cover; /* Menutupi seluruh elemen pada layar besar */
+  background-repeat: no-repeat;
+  width: 100%; /* Tinggi penuh layar */
+}
+
 /* Media Queries */
 
 /* Untuk layar yang lebih kecil dari 768px (tablet dan ponsel) */
@@ -69,6 +77,11 @@
   .btn-get-started {
     font-size: 4vw; /* Ukuran tombol disesuaikan */
     padding: 10px 15px;
+  }
+
+  .respon-background {
+    background-size: contain;
+    background-size: cover;
   }
 }
 
