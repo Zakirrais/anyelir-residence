@@ -57,12 +57,10 @@ const blokGambar = {
 };
 
 const images = [
-  "img/view_anyelirresidence2.jpg",
-  "img/view_anyelirresidence5.jpg",
-  "img/fasilitas1.jpg",
-  "img/fasilitas2.jpg",
-  "img/fasilitas3.jpg",
-  "img/fasilitas4.jpg",
+  "img/one-get-system.png",
+  "img/security-24jam.png",
+  "img/smart-lock-system.png",
+  "img/taman-bermain.png",
 ];
 
 let currentImages = [];
