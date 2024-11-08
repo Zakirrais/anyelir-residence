@@ -171,6 +171,7 @@ content-image {
 }
 
 .respon-background {
+  background-color: #f6e095;
   background-image: url("../img/bgrtype-left.png"),
     url("../img/bgrtype-right.png");
   background-position: left top, right top; /* Menempatkan satu gambar di kiri atas dan satu di kanan atas */
