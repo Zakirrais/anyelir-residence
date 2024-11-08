@@ -171,10 +171,12 @@ content-image {
 }
 
 .respon-background {
-  background-image: url("../img/bgrtype.png");
-  background-size: contain;
-  background-position: center;
-  padding: 12rem 4rem;
+  background-image: url("../img/bgrtype-left.png"),
+    url("../img/bgrtype-right.png");
+  background-position: left top, right top; /* Menempatkan satu gambar di kiri atas dan satu di kanan atas */
+  background-repeat: no-repeat, no-repeat; /* Mengatur agar gambar tidak berulang */
+  background-size: contain; /* Mengatur ukuran gambar agar proporsional */
+  padding: 2rem 2rem;
 }
 
 @media (max-width: 1366px) {
@@ -252,7 +254,10 @@ content-image {
   }
 
   .respon-background {
+    background-image: url("../img/bgrtype.png");
     background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
     padding: 4rem;
   }
 }
