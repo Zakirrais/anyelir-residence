@@ -170,15 +170,15 @@ content-image {
   bottom: 0;
 }
 
-/* .respon-background {
+.respon-background {
   background-color: #f6e095;
-  background-image: url("../img/bgrtype-left.png"),
+  /* background-image: url("../img/bgrtype-left.png"),
     url("../img/bgrtype-right.png");
   background-position: left top, right top; 
   background-repeat: no-repeat, no-repeat; 
-  background-size: contain; 
+  background-size: contain;  */
   padding: 2rem 2rem;
-} */
+}
 
 @media (max-width: 1366px) {
   html {
@@ -254,13 +254,13 @@ content-image {
     background-color: #f6e095;
   }
 
-  /* .respon-background {
-    background-image: url("../img/bgrtype.png");
+  .respon-background {
+    /* background-image: url("../img/bgrtype.png"); */
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
     padding: 4rem;
-  } */
+  }
 }
 
 @media (max-width: 450) {
