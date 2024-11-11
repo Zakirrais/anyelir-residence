@@ -170,15 +170,15 @@ content-image {
   bottom: 0;
 }
 
-.respon-background {
+/* .respon-background {
   background-color: #f6e095;
   background-image: url("../img/bgrtype-left.png"),
     url("../img/bgrtype-right.png");
-  background-position: left top, right top; /* Menempatkan satu gambar di kiri atas dan satu di kanan atas */
-  background-repeat: no-repeat, no-repeat; /* Mengatur agar gambar tidak berulang */
-  background-size: contain; /* Mengatur ukuran gambar agar proporsional */
+  background-position: left top, right top; 
+  background-repeat: no-repeat, no-repeat; 
+  background-size: contain; 
   padding: 2rem 2rem;
-}
+} */
 
 @media (max-width: 1366px) {
   html {
