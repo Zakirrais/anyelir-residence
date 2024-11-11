@@ -254,13 +254,13 @@ content-image {
     background-color: #f6e095;
   }
 
-  .respon-background {
+  /* .respon-background {
     background-image: url("../img/bgrtype.png");
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
     padding: 4rem;
-  }
+  } */
 }
 
 @media (max-width: 450) {
