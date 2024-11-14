@@ -57,9 +57,9 @@ const blokGambar = {
 };
 
 const images = [
-  "img/one-get-system.png",
+  "img/one-gate-system.png",
   "img/security-24jam.png",
-  "img/smart-lock-system.png",
+  "img/smart-door-lock-system.png",
   "img/taman-bermain.png",
 ];
 
