@@ -180,6 +180,34 @@ content-image {
   padding: 2rem 2rem;
 }
 
+#imageModal {
+  display: none; /* Sembunyikan modal secara default */
+  position: fixed; /* Modal menutupi seluruh layar */
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); /* Latar belakang gelap */
+}
+
+.modal-content-wrapper {
+  position: relative;
+  margin: auto;
+  max-width: 100%; /* Maksimal lebar modal */
+  max-height: 90%; /* Maksimal tinggi modal */
+}
+
+#modalImage {
+  width: 100%; /* Buat gambar responsif */
+  height: auto; /* Jaga rasio aspek */
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
 @media (max-width: 1366px) {
   html {
     font-size: 95%;
