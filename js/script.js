@@ -58,7 +58,7 @@ const blokGambar = {
 
 const images = [
   "img/one-gate-system.png",
-  "img/security-24jam.png",
+  "img/security-24-jam.png",
   "img/smart-door-lock-system.png",
   "img/taman-bermain.png",
 ];
