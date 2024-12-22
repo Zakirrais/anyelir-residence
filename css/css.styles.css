@@ -232,8 +232,11 @@ content-image {
   html {
     font-size: 75%;
   }
-  .contenthead img {
-    height: 100%;
+  .contenthead {
+    height: 40vh;
+  }
+  .head {
+    height: 100px;
   }
   .navbar-brand img {
     width: 100%;
