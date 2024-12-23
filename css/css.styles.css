@@ -101,18 +101,6 @@
   color: (var(--primary)); /* Warna saat hover */
 }
 
-.content-image {
-  width: 100%; /* Mengatur lebar gambar */
-  height: auto;
-  position: relative;
-  z-index: 1; /* Z-index lebih rendah sehingga elemen lain berada di atasnya */
-}
-
-.content-head {
-  position: relative;
-  width: 100%;
-}
-
 .info2 {
   display: flex;
   justify-content: space-between;
