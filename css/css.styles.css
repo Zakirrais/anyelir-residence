@@ -107,11 +107,28 @@ header .intro {
   color: #fff;
   text-align: center;
   position: relative;
-  top: 40%;
+  top: 35%;
 }
 
 header .intro h3 {
   font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+header .info-us {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+header .intro h4 {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+header .intro p {
+  font-size: 22px;
   margin: 0;
   padding: 0;
 }
@@ -124,7 +141,7 @@ header .intro h3 {
   text-decoration: none;
   display: inline-block;
   padding: 0px 20px 0px 20px;
-  font-size: 15px;
+  font-size: 18px;
   border-radius: 4px;
 }
 
