@@ -101,7 +101,7 @@
   color: (var(--primary)); /* Warna saat hover */
 }
 
-content-image {
+.content-image {
   width: 100%; /* Mengatur lebar gambar */
   height: auto;
   position: relative;
