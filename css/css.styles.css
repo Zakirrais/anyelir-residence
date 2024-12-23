@@ -112,8 +112,7 @@ content-image {
 .contenthead {
   position: relative;
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+  height: 100%;
 }
 
 .info2 {
@@ -213,7 +212,7 @@ content-image {
     font-size: 95%;
   }
 
-  .contenthead .head {
+  .head {
     height: 100%;
   }
   .navbar-brand img {
@@ -232,9 +231,7 @@ content-image {
   html {
     font-size: 75%;
   }
-  .contenthead img {
-    height: 50vh;
-  }
+
   .head {
     height: 46vh;
   }
@@ -298,7 +295,7 @@ content-image {
   html {
     font-size: 55%;
   }
-  .contenthead .head {
+  .head {
     height: 65vh;
   }
 
