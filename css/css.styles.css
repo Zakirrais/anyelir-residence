@@ -12,7 +12,7 @@
   font-size: 1.4rem;
 }
 
-.contenthead img {
+.contenthead .info-more {
   position: relative;
   top: 0;
   left: 0;
@@ -231,7 +231,8 @@ content-image {
     font-size: 70%;
   }
 
-  header.contenthead {
+  .head {
+    width: 100%;
     height: 46vh;
   }
   .navbar-brand img {
