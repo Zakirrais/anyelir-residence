@@ -111,7 +111,6 @@
 .content-head {
   position: relative;
   width: 100%;
-  height: 46vh;
 }
 
 .info2 {
@@ -223,7 +222,7 @@
     font-size: 70%;
   }
 
-  .head {
+  .content-head .head {
     width: 100%;
     height: 46vh;
   }
@@ -288,6 +287,7 @@
   }
   .head {
     height: 65vh;
+    width: 100%;
   }
 
   .navbar-brand img {
