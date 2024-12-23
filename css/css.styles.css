@@ -108,7 +108,7 @@
   z-index: 1; /* Z-index lebih rendah sehingga elemen lain berada di atasnya */
 }
 
-.contenthead {
+.content-head {
   position: relative;
   height: 46vh;
 }
