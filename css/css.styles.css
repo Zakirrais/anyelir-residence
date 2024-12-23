@@ -116,13 +116,9 @@ header .intro h3 {
   padding: 0;
 }
 
-header .info-us {
-  position: relative;
-  margin-bottom: 10px;
-}
-
 header .intro h4 {
-  font-size: 40px;
+  color: #f3cb47;
+  font-size: 30px;
   margin: 0;
   padding: 0;
 }
