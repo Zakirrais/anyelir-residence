@@ -232,8 +232,8 @@ content-image {
   html {
     font-size: 75%;
   }
-  .contenthead .head {
-    height: 46vh;
+  .contenthead img {
+    height: 50vh;
   }
   .head {
     height: 46vh;
