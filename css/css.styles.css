@@ -171,6 +171,14 @@ section h3::after {
   margin: 20px 0;
 }
 
+section h2::after {
+  content: "";
+  border-bottom: 3px solid #f3cb47;
+  width: 25%;
+  display: block;
+  margin: 20px auto;
+}
+
 /* #aboutus {
   text-align: center;
 } */
@@ -216,6 +224,12 @@ section.abuabu {
 .support div {
   /* text-align: ; */
   /* width: 80%; */
+}
+
+section h2 {
+  text-align: center;
+  font-size: 22px;
+  padding: 2rem;
 }
 
 @media screen and (max-width: 340px) {
