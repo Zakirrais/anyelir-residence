@@ -12,14 +12,15 @@
   font-size: 1.4rem;
 }
 
-/* .contenthead .img {
+.contenthead img {
   position: relative;
   top: 0;
   left: 0;
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover; 
-  z-index: -1; } */
+  width: 100%; /* Sesuaikan lebar gambar */
+  height: 100%; /* Sesuaikan tinggi gambar */
+  object-fit: cover; /* Mengatur gambar agar memenuhi area */
+  z-index: -1; /* Membuat gambar di belakang konten */
+}
 
 .top-list {
   position: relative;
@@ -109,6 +110,8 @@ content-image {
 
 .contenthead {
   position: relative;
+  display: flex;
+  width: 100%;
 }
 
 .info2 {
@@ -213,10 +216,6 @@ content-image {
     font-size: 95%;
   }
 
-  .head {
-    height: 100%;
-    width: auto;
-  }
   .navbar-brand img {
     width: 100%;
     height: 100%;
@@ -235,7 +234,7 @@ content-image {
   }
 
   .contenthead {
-    height: 50vh;
+    height: 46vh;
   }
   .navbar-brand img {
     width: 100%;
@@ -298,7 +297,6 @@ content-image {
   }
   .head {
     height: 65vh;
-    width: auto;
   }
 
   .navbar-brand img {
