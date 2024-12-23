@@ -110,8 +110,6 @@ content-image {
 
 .contenthead {
   position: relative;
-  display: flex;
-  height: 46vh;
 }
 
 .info2 {
