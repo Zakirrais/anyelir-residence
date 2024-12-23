@@ -212,7 +212,7 @@ content-image {
     font-size: 95%;
   }
 
-  .head {
+  .contenthead {
     height: 100%;
   }
   .navbar-brand img {
@@ -232,7 +232,7 @@ content-image {
     font-size: 75%;
   }
 
-  .head {
+  .contenthead {
     height: 46vh;
   }
   .navbar-brand img {
@@ -295,7 +295,7 @@ content-image {
   html {
     font-size: 55%;
   }
-  .head {
+  .contenthead {
     height: 65vh;
   }
 
