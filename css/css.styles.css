@@ -17,6 +17,7 @@
   top: 0;
   left: 0;
   width: 100%; /* Sesuaikan lebar gambar */
+  height: 100%; /* Sesuaikan tinggi gambar */
   object-fit: cover; /* Mengatur gambar agar memenuhi area */
   z-index: -1; /* Membuat gambar di belakang konten */
 }
@@ -110,7 +111,7 @@ content-image {
 .contenthead {
   position: relative;
   display: flex;
-  height: 100%;
+  width: 100%;
 }
 
 .info2 {
@@ -236,9 +237,8 @@ content-image {
     font-size: 70%;
   }
 
-  .head {
-    height: 46vh;
-    width: auto;
+  .contenthead {
+    height: 50vh;
   }
   .navbar-brand img {
     width: 100%;
