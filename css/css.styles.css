@@ -25,7 +25,6 @@
 .top-list {
   position: relative;
   display: inline-block;
-  padding: 1.5rem 0;
 }
 
 .top-list::after {
@@ -34,8 +33,8 @@
   width: 100%;
   height: 3px;
   background-color: #f6e095;
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin: auto;
 }
 
 .modal {
@@ -207,13 +206,19 @@ content-image {
   margin: auto;
 }
 
+.head {
+  width: 100%; /* Agar gambar menyesuaikan lebar kontainer */
+  height: auto; /* Default height sesuai dengan aspect ratio */
+}
+
 @media (max-width: 1366px) {
   html {
     font-size: 95%;
   }
 
-  .contenthead {
+  .head {
     height: 100%;
+    width: auto;
   }
   .navbar-brand img {
     width: 100%;
@@ -232,8 +237,9 @@ content-image {
     font-size: 70%;
   }
 
-  .contenthead {
+  .head {
     height: 46vh;
+    width: auto;
   }
   .navbar-brand img {
     width: 100%;
@@ -248,18 +254,17 @@ content-image {
   .top-list {
     display: block;
     text-align: center;
+    width: 100%;
   }
 
   .text-content {
     text-align: center;
     display: block;
+    padding: 1rem 4rem;
   }
 
   .top-list::after {
-    width: 80%; /* Atur ulang lebar garis bawah untuk ponsel */
-    left: 10%;
-    align-items: center;
-    justify-content: center;
+    width: 20%; /*Atur ulang lebar garis bawah untuk ponsel */
   }
 
   .info-more {
@@ -295,8 +300,9 @@ content-image {
   html {
     font-size: 65%;
   }
-  .contenthead {
+  .head {
     height: 65vh;
+    width: auto;
   }
 
   .navbar-brand img {
