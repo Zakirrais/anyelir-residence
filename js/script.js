@@ -35,7 +35,10 @@ function resetInterval() {
 
 const blokGambar = {
   1: [
-    // "img/Blok_A/Blok-A1.jpg",
+    "img/Blok_A/real-pict-a5-1.jpg",
+    "img/Blok_A/real-pict-a5-2.jpg",
+    "img/Blok_A/real-pict-a5-3.jpg",
+    "img/Blok_A/real-pict-a5-4.jpg",
     "img/Blok_A/TIPE-BLOK-A.png",
     "img/sertifikasi-bangunan.png",
   ],
