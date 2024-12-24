@@ -150,7 +150,7 @@ function klikMenu() {
 }
 $(document).ready(function () {
   var width = $(window).width();
-  if (width < 990) {
+  if (width < 1366) {
     klikMenu();
   }
 });
@@ -158,7 +158,7 @@ $(document).ready(function () {
 //chech lebar
 $(Window).resize(function () {
   var width = $(window).window();
-  if (width > 989) {
+  if (width > 1366) {
     menu.css("display", "block");
   } else {
     menu.css("display", "none");
